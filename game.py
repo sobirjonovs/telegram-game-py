@@ -5,7 +5,7 @@ from aiogram.contrib.fsm_storage.memory import MemoryStorage
 from aiogram.dispatcher.filters import CommandStart
 from aiogram.utils import executor
 
-bot = Bot(token="1783680365:AAGXuo2xlp8pME6ELng1xGuWerDpIQuXDXw")
+bot = Bot(token=token)
 dp = Dispatcher(bot=bot, storage=MemoryStorage())
 
 
